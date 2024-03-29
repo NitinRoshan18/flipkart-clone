@@ -1,0 +1,198 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  background-color: #ffffff;
+  padding: 12px 28px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  text-decoration: none;
+  flex: 0 0 auto;
+}
+.flipkart_logo {
+  height: auto;
+  cursor: pointer;
+  width: auto;
+}
+.flipkart_search {
+  display: flex;
+  background-color: #f0f7ff;
+  width: 31.25rem;
+  border-radius: 8px;
+  height: 2.5rem;
+  align-items: center;
+}
+.search_icon {
+  font-size: 26px;
+  width: auto;
+  cursor: pointer;
+}
+.header_input {
+  width: fit-content;
+  border: none;
+  font-size: 18px;
+  height: fit-content;
+  background-color: #f0f7ff;
+  width: 100%;
+}
+input:focus {
+  outline: none; /* Remove the default outline */
+}
+.flipkart_user {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.user_icon {
+  font-size: 24px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.down_arrow {
+  font-size: 10px;
+  padding-top: 7px;
+  margin-left: 8px;
+}
+.header_text {
+  text-decoration: none;
+}
+.sign_more {
+  display: flex;
+  font-size: 16px;
+  position: relative;
+  text-decoration: none;
+}
+.sign-options {
+  position: absolute;
+  width: 16.8rem;
+  top: 100%;
+  left: 150px;
+  right: -2;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.4rem;
+  display: none;
+  border-radius: 6px;
+  align-items: start;
+  height: fit-content;
+  z-index: 600;
+}
+.sign__up {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+#sign_up {
+  height: 15px;
+  padding-left: 70px;
+  margin-left: 10px;
+  font-style: bold;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.options a {
+  margin-bottom: 4px;
+  align-self: start;
+  text-decoration: none;
+  color: #000000;
+  padding-right: 160px;
+}
+.options {
+  justify-content: space-around;
+  display: flex;
+}
+.sign_icons{
+  padding-right: 2px;
+}
+
+.link-button {
+  color: black;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+.link-button:active,
+.link-button:focus {
+  color: #333;
+  outline: none;
+  box-shadow: none;
+}
+
+
+.sign_more:hover .sign-options {
+  display: block;
+  left: -70px;
+}
+.flipkart_user:hover .down_arrow {
+  transform: rotate(180deg);
+}
+
+.flipkart_cart {
+  display: flex;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+}
+.cart_icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+.flipkart_seller {
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+}
+.shop_icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+.flipkart_more {
+  display: flex;
+  font-size: 16px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.more {
+  font-size: 24px;
+}
+
+.more-options {
+  position: absolute;
+  width: max-content;
+  top: 100%;
+  left: 0;
+  right: -40;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  display: none;
+  border-radius: 4px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+.more-options a {
+  text-decoration: none;
+  color: #000000;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.flipkart_more:hover .more-options {
+  display: block;
+  left: -200px;
+}

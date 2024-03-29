@@ -1,0 +1,56 @@
+.category {
+  height: 126px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 20px 4px 20px;
+  justify-content: space-evenly;
+  padding:0px 40px 8px 40px;
+}
+.category_options{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+.category_options  img {
+height: 64px;
+width: 64px;
+}
+
+.fashion_options {
+  position: absolute;
+  width: 300px;
+  top: 100%;
+  left: 0;
+  right: -40;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  display: none;
+  border-radius: 6px;
+  align-items: start;
+  height: fit-content;
+  z-index: 600;
+}
+
+.category_options:hover .fashion_options {
+  display: block;
+  left: -70px;
+}
+
+
+.down_arrow  {
+  font-weight: 1000;
+  transition: transform 0.3s ease; /* optional: configure the transition duration/timing function */
+}
+
+.down_arrow:hover {
+  transform: rotate(180deg);
+  color: blue;
+}

@@ -1,0 +1,83 @@
+.carousel_container2 {
+  position: relative;
+  height: 300px; /* Height of the carousel container */
+  overflow: hidden; /* Hide overflow content */
+  z-index: 2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  margin: 20px 20px 10px 20px;
+  padding: 0px 4px 12px 0px;
+}
+.product__header {
+  display: flex;
+  margin-left: 20px;
+  height: 64px;
+}
+.product__header_icon2{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 1100px;
+  background-color: blue;
+  border-radius: 50%;
+  color: #ffffff;
+  position: absolute;
+}
+
+.product-carousel {
+  display: flex; /* Display products in a row */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  align-items: center;
+}
+
+.product_container {
+  flex: 0 0 auto; /* Do not grow or shrink */
+  width: 220px; /* Width of each product container */
+  height: 220px; /* Height of each product container */
+  overflow: hidden; /* Hide overflow content */
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px;
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  margin-right: 10px;
+}
+
+.product-image {
+  width: 150px; /* Make sure the image fills the product container */
+  height: 190px; /* Make sure the image fills the product container */
+  object-fit: cover; /* Scale the image while preserving aspect ratio */
+  cursor: pointer;
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border: none;
+  color: #333;
+  font-size: 24px;
+  width: 45px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10%; /* Circular button */
+  z-index: 1; /* Ensure button is above product carousel */
+  opacity: 2;
+}
+
+.scroll-button.left {
+  left: 0px;
+  border: 1px solid grey;
+  border-left: none;
+}
+
+.scroll-button.right {
+  right: 0px;
+  border: 1px solid grey;
+  border-right: none;
+}
+
+.product-carousel::-webkit-scrollbar {
+  display: none;
+}

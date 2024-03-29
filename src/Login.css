@@ -1,0 +1,80 @@
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.login_left {
+  width: 22rem;
+  height: 30rem;
+  color: #dbdbdb;
+  font-size: 18px;
+  background-color: #1e90ff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+}
+.login_left h2 {
+  margin-top: 30px;
+}
+.login_left p {
+  font-size: 18px;
+  color: #dbdbdb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login_right {
+  width: 30rem;
+  height: 33rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-align: center;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+.username {
+  border: 1px solid transparent;
+  width: 27.1rem;
+  height: 2.37rem;
+  padding: 8px 10px 10px 10px;
+  margin-bottom: 30px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  margin-top: 30px;
+}
+.password {
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  width: 27.1rem;
+  height: 2.37rem;
+  padding: 8px 10px 10px 10px;
+  margin-bottom: 20px;
+}
+.terms {
+  color: #878787;
+  margin-bottom: 20px;
+}
+.terms a {
+  color: #2874f0;
+  cursor: pointer;
+}
+.login_btn {
+  width: 27rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #fb641b;
+  border: transparent;
+  color: #ffffff;
+  font-size: 18px;
+}
+.sign_up_para {
+  font-size: 14px;
+  color: #2874f0;
+  margin-top: 130px;
+  cursor: pointer;
+}
